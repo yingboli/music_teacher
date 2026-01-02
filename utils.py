@@ -38,18 +38,6 @@ def load_log(ttl:int =600) -> pd.DataFrame:
     else:
         st.session_state.all_players = []
 
-    # st.write(st.session_state.all_players)
-    # st.write(log)
-
-    
-    # # Check if the connection thinks it is a service account
-    # conn = st.connection("gsheets", 
-    #                      type=GSheetsConnection)
-    # if hasattr(conn, "_secrets") and "type" in conn._secrets:
-    #     st.write(f"Connection Type: {conn._secrets['type']}")
-    # else:
-    #     st.error("Connection is running in PUBLIC mode (Service Account secrets not found)")
-
     return log
 
 
