@@ -1,0 +1,38 @@
+name: music
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ruff
+  - pytest
+  - notebook
+  - ipykernel
+  - pandas
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - langgraph
+    - langgraph-prebuilt
+    - langgraph-sdk
+    - langgraph-checkpoint-sqlite
+    - langsmith
+    - langchain-community
+    - langchain-core
+    - langchain-openai
+    - langchain-tavily
+    - wikipedia
+    - trustcall
+    - "langgraph-cli[inmem]"
+    - music21
+    - streamlit
+    - streamlit_extras
+    - st-gsheets-connection
+    - xvfbwrapper
+    - pyvirtualdisplay
+    - google-api-python-client
+    - isodate

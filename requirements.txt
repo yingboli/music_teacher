@@ -1,0 +1,16 @@
+pip==25.3 
+pandas==2.3.3
+numpy==2.4.0
+langgraph==1.0.5
+langgraph-prebuilt==1.0.5
+langgraph-sdk==0.3.1
+langgraph-checkpoint-sqlite==3.0.1 
+langsmith==0.5.1 
+langchain-community==0.4.1 
+langchain-core==1.2.5 
+langchain-openai==1.1.6
+music21==9.9.1 
+streamlit==1.52.2
+streamlit_extras==0.7.8 
+st-gsheets-connection==0.1.0
+xvfbwrapper

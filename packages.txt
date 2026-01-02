@@ -1,0 +1,5 @@
+xvfb
+x11-utils
+musescore3
+libgl1-mesa-glx
+libnss3
