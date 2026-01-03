@@ -113,13 +113,17 @@ elif st.session_state.current_quiz_i == len(st.session_state.quizzes):
         if st.session_state.hearts > 0:    
             st.markdown(":rainbow-background[:rainbow[Enjoy your surprise.]]")
             video_id = make_surprise() 
-            embed_url = f"https://www.youtube.com/embed/{video_id}"
-            st.components.v1.iframe(embed_url, height=600)
-        #     surprise_prob = {2: 0.5, 10: 0.5, 15: 0.66, 20: 0.75}
-        #     if np.random.random() < surprise_prob[st.session_state.num_questions]:                
-        #         st.markdown(":rainbow-background[:rainbow[Enjoy your surprise.]]")
-        #         # st.video('https://www.youtube.com/watch?v=qP-7GNoDJ5c&list=RDqP-7GNoDJ5c&start_radio=1', start_time="0m0s", end_time="1m12s")
-        #         st.video('https://www.youtube.com/shorts/B7EZvAWDFPg')
+
+            # surprise_prob = {2: 0.5, 10: 0.5, 15: 0.66, 20: 0.75}
+            # if np.random.random() < surprise_prob[st.session_state.num_questions]:  
+            
+            ## For youtube shorts
+            # embed_url = f"https://www.youtube.com/embed/{video_id}"
+            # st.components.v1.iframe(embed_url, height=600)
+
+            ## For youtube videos
+            st.video('https://www.youtube.com/watch?v={video_id}')
+ 
     st.balloons()
 
     st.session_state.game_generated = False
