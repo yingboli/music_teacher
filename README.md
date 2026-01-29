@@ -1,8 +1,11 @@
 # AI Music Teacher
 
+* Now on Streamlit Cloud: [https://music-teacher.streamlit.app/](https://music-teacher.streamlit.app/)
+
 ![screenshot](screenshot_home.png)
 
-* Now on Streamlit Cloud: [https://music-teacher.streamlit.app/](https://music-teacher.streamlit.app/)
+![screenshot](screenshot_game.png)
+
 
 * Packages and tools used in this app (an incomplete list):
     - Streamlit
